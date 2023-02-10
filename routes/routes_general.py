@@ -16,7 +16,7 @@ from starlette.requests import Request
 router_general = APIRouter()
 
 # static file setup config
-router_general.mount("/static", StaticFiles(directory="static"), name="static")
+# router_general.mount("/static", StaticFiles(directory="static"), name="static")
 path = "static/"
 
 
