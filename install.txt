@@ -1,7 +1,7 @@
 --create env
-python -m venv jinjienv 
+python -m venv jinjienvhrk 
 --Active env
-..\jinjienv\Scripts\activate
+..\jinjienvhrk\Scripts\activate
 
 --library
 python.exe -m pip install --upgrade pip
@@ -23,7 +23,7 @@ python -m pip install --upgrade pip
 
 --Runinng App
 uvicorn main:app --reload
-uvicorn main:app --reload --port 5213
+uvicorn main:app --reload --port 5214
 //
 https://www.youtube.com/watch?v=Lj7ivxUvSog
 https://github.com/tiangolo/full-stack-fastapi-postgresql/issues/140

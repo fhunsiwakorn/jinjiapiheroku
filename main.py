@@ -23,7 +23,7 @@ app.add_middleware(
 
 @app.post("/test")
 async def my_route(request: Request) -> None:
-    print(request.url.path)
+    # print(request.url.path)
     return request.base_url._url
 
 # สำหรับเปิด Test Swagger UI
